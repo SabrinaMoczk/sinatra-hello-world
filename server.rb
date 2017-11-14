@@ -12,7 +12,7 @@ end
 
 get "/new" do
 	@title = "tela de cadastro"
-	erb :edit
+	erb :new
 end
 
 post "/new" do
